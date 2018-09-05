@@ -1,0 +1,17 @@
+
+body {
+	font-family: Helvetica;
+	margin: 4em;
+	margin-left: 7em;
+	margin-right: 7em;
+	background-color: #f4f4f4;
+}
+
+h1{
+	color: #150a89;
+}
+
+h2 {
+	margin-bottom: 2.5em;
+	color: #5a5a5a;
+}
