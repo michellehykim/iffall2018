@@ -1,0 +1,101 @@
+body {
+	margin: auto;
+	margin-top: 60px;
+	width: 900px;
+}
+
+h1 {
+	font-family: 'Raleway';
+	font-size: 60px;
+}
+
+h3 {
+	font-family: Helvetica;
+	color: gray;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0 0 8px 0;
+}
+
+.bottom {
+	padding-bottom: 40px;
+}
+
+div {
+	font-family: 'Raleway';
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.category {
+	color: #989898;
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 6px;
+	font-family: Helvetica;
+}
+
+.description {
+	color: #bfbfbf;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: Helvetica;
+	padding-top: 15px;
+}
+
+.last {
+	padding-bottom: 50px;
+}
+
+.thin {
+	font-weight: 100;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.black {
+	font-weight: 900;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.wide {
+	letter-spacing: 0.5em;
+}
+
+.tight {
+	letter-spacing: -0.1em;
+}
+
+
+.underline {
+	text-decoration: underline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
