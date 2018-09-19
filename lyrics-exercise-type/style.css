@@ -1,0 +1,80 @@
+img {
+	width: 68%;
+	margin-top: 10em;
+}
+
+h3 {
+	margin-top: 9em;
+	font-size: 1.4em;
+	color: gray;
+}
+
+ol {
+	font-size: 1.1em;
+	line-height: 1.4em;
+	margin-bottom: 30em;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.selected {
+	color: black;
+	font-weight: bold;
+}
+
+body {
+	background-color: #74CDE5;
+	color: white;
+	font-family: Helvetica;
+	margin: auto;
+	width: 800px;
+}
+
+h1 {
+	font-size: 6em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3em;
+	color: gray;
+	margin-bottom: 9em;
+}
+
+p {
+	color: white;
+	font-size: 1.2em;
+	line-height: 0.8em;
+}
+
+div {
+	color: white;
+	font-size: 1.2em;
+	line-height: 0.8em;
+}
+
+.label {
+	color: gray;
+	text-decoration: underline;
+	text-transform: lowercase;
+	font-size: 1em;
+}
+
+.scattered {
+	letter-spacing: 1em;
+}
+
+.highlight {
+	color: black;
+}
+
+.italic {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+.train {
+	font-weight: bold;
+	text-decoration: overline;
+}
