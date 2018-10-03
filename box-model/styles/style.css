@@ -1,0 +1,65 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+.one {
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/nZi7nus/close-up-potato-hd-stock-footage-a-close-up-dolly-shot-of-some-potatoes_e1iupggt__F0000.png");
+	background-size: cover;
+	background-position: center;
+	padding-top: 95px;
+	padding-bottom: 190px;
+}
+
+.one h1 {
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	font-size: 80px;
+	margin-bottom: 0;
+}
+
+.one h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+}
+
+
+/*.two {
+	background-color: #DD8140;
+}
+
+.two .potatoheart {
+	
+}
+*/
+.two h3, .three h3, .four h3 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 38px;
+	margin-bottom: 37px;
+}
+
+.two p, .three p, .three h4 {
+	font-size: 18px;
+	line-height: 25px;
+	padding-left: 255px;
+	padding-right: 250px;
+}
+/*
+.three {
+	background-color: #E7D77F;
+}
+*/
+.four p {
+	padding-left: 380px;
+	padding-right: 380px; 
+	font-size: 25px;
+	text-align: center;
+}
+/*
+.four {
+	background-color: #E7937F;
+}
+*/
