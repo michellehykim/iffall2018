@@ -1,0 +1,66 @@
+.coverimage {
+    position: relative;
+}
+
+img {
+	width: 100%;
+}
+
+.title {
+	position: absolute;
+	font-size: 88px;
+    top: 40px;
+    left: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	font-family: 'BenchNine', sans-serif;
+}
+
+.recipe {
+	position: absolute;
+	font-size: 88px;
+    bottom: 40px;
+    left: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	font-family: 'BenchNine', sans-serif;
+}
+
+.intro p {
+	font-style: italic;
+}
+
+body {
+	margin: auto;
+	width: 750px;
+	line-height: 52px;
+	font-size: 46px;
+	font-family: 'Lato', sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+h2, h3 {
+	font-family: 'BenchNine', sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-top: 60px;
+}
+
+.crepe h3, .filling h3, .directions h3 {
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	color: #F06D6D;
+	font-size: 58px;
+}
+
+.directions h2 {
+	clear: left;
+	padding-top: 30px;
+}
