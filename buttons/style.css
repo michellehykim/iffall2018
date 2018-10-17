@@ -1,0 +1,442 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+ }
+		
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover, a#btn_spotify:active {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+			}
+
+a#btn_twitter:hover, a#btn_twitter:active {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover, a#btn_amazon:active {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover, a#btn_indiegogo:active {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+
+a#btn_apple {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	font-size: 70px;
+	background-color: #dadada;
+	color: white;
+	text-decoration: none;
+}
+
+a#btn_apple:hover, a#btn_apple:active {
+	background-color: black;
+	color: white;
+}
+
+
+a#btn_ibm {
+	display: inline-block;
+	margin:auto;
+	margin-top: 90px;
+	background-color: white;
+	color: black;
+	font-family: 'Bevan', serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a#btn_ibm:hover, a#btn_ibm:active {
+	color: #3D3D3D;
+	background-color: #ECC516;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+
+a#btn_bissinger {
+	display: inline-block;
+	margin:auto;
+	margin-top: 90px;
+	color: #C49A17;
+	font-family: 'Pirata One', curive;
+	font-size: 50px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+a#btn_bissinger:hover, a#btn_bissinger:active {
+	color: #B01B48;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+
+a#btn_michaelkors {
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	background-color: white;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a#btn_michaelkors:hover, a#michaelkors:active {
+	color: #1F679C;
+}
+
+a#btn_sardella {
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	background-color: #35FFBF;
+	color: white;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+a#btn_sardella:hover, a#sardella:active {
+	color: white;
+	background-color: #0300C4;
+}
+
+
+a#btn_pottermore {
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	color: #D8C026;
+	background-color: #850B0B;
+	font-family: 'Satisfy', sans-serif;
+	font-size: 35px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+
+}
+
+a#btn_pottermore:hover, a#pottermore:active {
+	background-color: #053E5E;
+	color: white;
+}
+
+
+a#btn_mollyjogger {
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	color: #284D26;
+	background-color: white;
+	border: 3px solid #284D26;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 0px 8px 9px 10px;
+	border-radius: 2px;
+	letter-spacing: 1px;
+
+}
+
+a#btn_mollyjogger:hover, a#mollyjogger:active {
+	color: #E6E8BE;
+	background-color: #284D26;
+}
+
+
+a#btn_moo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	color: #098031;
+	background-color: white;
+	font-family: 'Lato', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 2px;
+	letter-spacing: 1px;
+
+}
+
+a#btn_moo:hover, a#moo:active {
+	color: white;
+	background-color: #098031;
+}
+
+
+a#btn_tonightshow {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	width: 140px;
+	height: 140px;
+	box-sizing: border-box;
+	border-radius: 70px;
+	margin: auto;
+	margin-top: 75px;
+	padding-left: 10px;
+	padding-top: 25px;
+	color: #0E3298;
+	border: 2px solid #0E3298;
+	text-align: left;
+	font-size: 27px;
+	line-height: 1;
+
+}
+
+a#btn_tonightshow:hover, a#tonightshow:active {
+	color: white;
+	background-color: #10286C;
+}
+
+
+a#btn_newyorker {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	color: black;
+	text-align: center;
+	font-size: 27px;
+
+}
+
+a#btn_newyorker:hover, a#newyorker:active {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+a#btn_instagram {
+	display: block;
+	width: 110px;
+	height: 110px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	font-size: 70px;
+	color: #FE7B2B;
+	text-decoration: none;
+}
+
+a#btn_instagram:hover, a#btn_instagram:active {
+	color: #B81D82;
+}
+
+
+a#btn_colorrun {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	color: #EA3CAD;
+	text-align: center;
+	font-size: 27px;
+}
+
+a#btn_colorrun:hover, a#colorrun:active {
+	color: #22C0E3;
+	text-transform: uppercase;
+}
+
+
+a#btn_dimecity {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border-radius: 75px;
+	margin: auto;
+	margin-top: 75px;
+	padding-left: 4px;
+	padding-top: 52px;
+	color: white;
+	background-color: #C62424;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1;
+	text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+}
+
+a#btn_dimecity:hover, a#dimecity:active {
+	border: 5px solid black;
+}
+
+
+a#btn_samsung {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin:auto;
+	margin-top: 110px;
+	color: #1712C8;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+a#btn_samsung:hover, a#samsung:active {
+	color: gray;
+}
+
+
+a#btn_ofa {
+	display: inline-block;
+	margin:auto;
+	margin-top: 80px;
+	padding: 30px 20px 30px 20px;
+	background-color: #1DCEEA;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a#btn_ofa:hover, a#ofa:active {
+	color: white;
+	background-color: #7DEDFE;
+}
+
+
+
+
+
+
+
