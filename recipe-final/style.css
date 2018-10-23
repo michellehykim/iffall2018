@@ -1,0 +1,65 @@
+.coverimage {
+    margin-top: 50px;
+}
+
+img {
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 150px;
+	line-height: 162px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	font-family: 'BenchNine', sans-serif;
+}
+
+.intro p {
+	font-style: italic;
+}
+
+body {
+	margin: auto;
+	width: 750px;
+	line-height: 75px;
+	font-size: 52px;
+	font-family: 'Lato', sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+h3 {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 150px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'BenchNine', sans-serif;
+	text-transform: uppercase;
+	font-size: 100px;
+	letter-spacing: 1.5px;
+	padding-top: 60px;
+}
+
+.crepe h3, .filling h3, .directions h3 {
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #F06D6D;
+	font-size: 75px;
+}
+
+.directions h2 {
+	clear: left;
+	padding-top: 30px;
+}
+
+.final {
+	margin-bottom: 70px;
+}
