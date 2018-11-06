@@ -1,0 +1,104 @@
+a {
+display: block;
+position:fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 100;
+}
+
+
+.quote {
+		font-family: Helvetica;
+		font-weight: bold;
+		color: white;
+		text-shadow: 1px 1px 15px rgba(150, 150, 150, 1);
+	}
+
+	.attributer {
+		font-family: Helvetica;
+		font-weight: lighter;
+		color: white;
+		text-shadow: 1px 1px 15px rgba(150, 150, 150, 1);
+	}
+
+@media (min-width: 320px) {
+
+	body {
+		background-image: url(stanley_mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	p {
+		margin-left: 15px;
+		width: 280px;
+	}
+
+	.quote {
+		margin-top: 370px;
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.attributer {
+		font-size: 18px;
+	}
+
+}
+
+@media (min-width: 414px) {
+
+	body {
+		background-image: url(stanley_mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	p {
+		margin-left: 15px;
+		width: 340px;
+	}
+
+	.quote {
+		margin-top: 410px;
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.attributer {
+		font-size: 18px;
+	}
+
+}
+
+@media (min-width: 1000px) {
+
+	body {
+		background-image: url(stanley.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	p {
+		margin-left: 50px;
+		width: 650px;
+	}
+
+	.quote {
+		margin-top: 630px;
+		font-size: 30px;
+		line-height:40px;
+	}
+
+	.attributer {
+		font-size: 20px;
+	}
+}
