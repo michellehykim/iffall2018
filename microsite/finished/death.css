@@ -1,0 +1,93 @@
+body {
+	background-color: #F8F6ED;
+	color: #262626;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.header {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 5em;
+	color: #80aedd;
+	text-align: center;
+	margin-top: 0em;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.navigation div {
+	display: inline-block;
+}
+
+.text {
+	margin-top: 4em;
+	display: flex;
+	align-items: flex-start;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #447EA5;
+}
+
+.text img {
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+.text div {
+	float: left;
+	font-family: 'Libre Baskerville', serif;
+	width: 70%;
+	margin-right: 5em;
+	line-height: 1.8em;
+}
+
+.text .first {
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+.text .overview .works {
+	color: #447EA5;
+}
+
+.navigation div a:link {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: #9F6D8C;
+	text-decoration: none;
+}
+
+.navigation div a:hover, a:active, a:visited {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: #d98dbc;
+	text-decoration: none;
+}
+
+.flower img {
+	width: 12%;
+	display: block;
+	margin: auto;
+}
+
+.footer {
+	line-height: 2em;
+	margin-bottom: 3em;
+	background-color: white;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.footer img {
+	width: 1.5%;
+}
+
+
